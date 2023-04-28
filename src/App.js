@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
+import Card1 from './components/Card';
 
 function App() {
   return (
@@ -10,10 +11,9 @@ function App() {
 <h1 className="text-3xl font-bold underline text-center text-black-500">
       Hello world!
     </h1>
-    <p >  
-
-   </p>
-
+   <Card1/>
+   <Card1/>
+   <Card1/>
 </div>
 
     </div>
