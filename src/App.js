@@ -2,28 +2,31 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Card1 from './components/Card';
+import Card2 from './components/Card2';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div   className=' bg-sky-900	'       >
+    <div className=' bg-[#FEA4B9] '  >
       <Header/>
-      <div className=' bg-black'>   
-<h1 className="text-3xl font-bold underline text-center text-black-500">
-      Hello world!
-    </h1>
-   <Card1/>
-   <Card1/>
-   <Card1/>
+      <div className=' bg-[#FEA4B9]  flex justify-between gap-x-6 py-5 content-center	grid grid-flow-row-dense grid-cols-3 grid-rows-3'>   
+
+<Card2/>
+<Card2/>
+<Card2/>
+<Card2/>
+<Card2/>
+<Card2/>
+<Card2/>
+<Card2/>
+
+
 </div>
+<Footer/>
 
     </div>
   );
 }
 
 export default App;
-<div className=' bg-sky-900	 '>   
-<h1 className="text-3xl font-bold underline text-center text-cyan-500">
-      Hello world!
-    </h1>
-
-</div>
