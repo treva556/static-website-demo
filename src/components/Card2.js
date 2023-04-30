@@ -12,7 +12,7 @@ import image from '../pngs/soccer.png'
 import React from "react";
 export default function Card2() {
     return (
-        <div class="max-w-xl bg-[#614F89] border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  border-8 border-[#FEA4B9]">
+        <div class="max-w-xl bg-[#614F89] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  border-8 border-[#FEA4B9]">
         <a href="#">
             <img class="rounded-t-lg" src={image} alt="" />
         </a>
