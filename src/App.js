@@ -10,7 +10,7 @@ function App() {
   return (
     <div className=' bg-[#FEA4B9] '  >
       <Header/>
-      <div className=' bg-[#FEA4B9]  flex justify-between gap-x-6 py-5 content-center	grid grid-flow-row-dense grid-cols-3 grid-rows-3'>   
+      <div className=' bg-[#FEA4B9]  flex justify-between gap-x-6 py-5 content-center	grid grid-flow-row-dense grid-cols-3 grid-rows-2'>   
 
 <Card2/>
 <Card2/>
